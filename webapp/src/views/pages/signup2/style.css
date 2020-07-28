@@ -1,0 +1,59 @@
+.signupForm label {
+    pointer-events: none;
+}
+
+.signupForm a {
+    cursor: pointer;
+}
+
+.signupForm .row {
+    margin-bottom: 0;
+}
+.signupForm .pinto {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    height:100% !important;
+}
+
+.signupForm .btn {
+    width: 70%;
+    background: grey!important;
+    border-radius: 20px;
+}
+
+.signupForm {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.signupForm form {
+    height: auto;
+    margin: auto;
+    margin-top :10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 4px 4px grey;
+    border-radius: 6px;
+    background-color: white;
+    max-width: 350px;
+}
+
+.error-display {
+    display:none;
+    margin-bottom:15px;
+    padding:15px;
+    background-color:#fff4cc;
+    border:solid 2px #ffe070
+}
+
+#existingacc {
+    position:relative;
+    color: #696969;
+    padding-right: 20px;
+}

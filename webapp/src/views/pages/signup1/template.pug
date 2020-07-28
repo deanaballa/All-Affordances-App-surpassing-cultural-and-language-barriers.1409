@@ -1,0 +1,21 @@
+.signupForm
+  form.col.s12
+    img.pinto.left(src='/static/img/pinto.png')
+    .row
+      .col.s12
+        h6.center Sign Up
+    .row
+      .input-field.col.s12
+        input.email.validate(type='email' pattern=regex required )
+        label Email
+        //span.helper-text(data-error='wrong', data-success='right')
+    .row
+      .input-field.col.s12
+        input.password.validate(type='password' id="password" required )
+        label Password
+    .row
+      .input-field.col.s12.center
+        a.waves-effect.waves-light.btn.submit-signup#submit(href='/login1')  Submit
+
+
+include ../../template/partials/loader/loader

@@ -1,0 +1,72 @@
+.signupForm1 label {
+    pointer-events: none;
+}
+
+.signupForm1 a {
+    cursor: pointer;
+}
+
+.signupForm1 .row {
+    margin-bottom: 0;
+}
+.signupForm1 .pinto {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    height:100% !important;
+}
+
+.signupForm1 .btn-small {
+    width: 70%;
+    background: #49b977 !important;
+    border-radius: 20px;
+}
+.signupForm1 .btn-small.submit1 {
+    width: 100%;
+    height: 45px;
+    background: #49b977 !important;
+    border-radius: 20px;
+    line-height: 45px;
+}
+
+.signupForm1 .btn-large {
+    width: 100% !important;
+    background: #49b977 !important;
+    border-radius: 20px;
+}
+
+.signupForm1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.signupForm1 form {
+    height: auto;
+    margin: auto;
+    margin-top :10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 4px 4px grey;
+    border-radius: 6px;
+    background-color: white;
+    max-width: 350px;
+}
+
+.error-display {
+    display:none;
+    margin-bottom:15px;
+    padding:15px;
+    background-color:#fff4cc;
+    border:solid 2px #ffe070
+}
+
+#existingacc {
+    position:relative;
+    color: #696969;
+    padding-right: 20px;
+}

@@ -1,0 +1,18 @@
+nav {
+    background-color: #2bbbad !important;
+}
+
+.nav-background {
+    opacity: 0.2 !important;
+    /*background-image: url('/static/img/apps-background.png');*/
+    background-repeat: repeat;
+    background-size: contain;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.btn {
+  background-color: #2bbbad !important;
+}
+
+
+
